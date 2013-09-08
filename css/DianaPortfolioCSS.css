@@ -1,0 +1,53 @@
+.HeaderMenu {
+	display: inline-block;
+	margin: 10px 25px 10px 25px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	float: right;
+}
+
+#DWlogo {
+	display: block;
+	clear: both;
+	margin: auto;
+	padding: 75px;
+}
+
+.outer {
+	margin: auto;
+	height: 700px;
+	width: 700px;
+	text-align: center;
+}
+
+.inner {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.inner:hover {
+	opacity: 0.4;
+}
+
+#Footer {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.5em;
+	text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:visited {
+    color: black;
+}
