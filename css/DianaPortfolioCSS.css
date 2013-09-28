@@ -1,10 +1,14 @@
-.HeaderMenu {
-	display: inline-block;
-	margin: 10px 25px 10px 25px;
+body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 0.75em;
-	text-transform: uppercase;
+}
+
+.HeaderMenu {
+	display: inline-block;
 	float: right;
+	margin: 10px 25px 10px 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;	
 }
 
 #DWlogo {
@@ -14,11 +18,37 @@
 	padding: 75px;
 }
 
+.hiddendisplay {
+	margin: auto;
+	width: 650px;
+}
+
+#paintingdisplay {
+	height: 675px;
+	width: 450px;
+	margin: 10px ;
+	float: left;
+}
+
+#paintingtitle {
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+#paintingdescription {
+	text-transform: uppercase;
+	clear: right;
+	letter-spacing: 1px;
+}
+
 .outer {
 	margin: auto;
 	height: 700px;
 	width: 700px;
 	text-align: center;
+	clear: both;
 }
 
 .inner {
@@ -32,11 +62,65 @@
 	opacity: 0.4;
 }
 
-#Footer {
+#trioHolder {
 	text-align: center;
-	font-family: Helvetica, Arial, sans-serif;
+	width: 700px;
+	height: 425px;
+	margin: auto;
+}
+
+.trio {
+	height: 320px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.trio:hover {
+	opacity: 0.4;
+}
+
+#trioTitleHolder {
+	text-align: center;
+	width: 700px;
+	height: 100px;
+	margin: auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.trioTitle {
+	display: inline-block;
+	margin: 0px 70px;
+	letter-spacing: 2px;
+}
+
+.trioTitle:hover {
+	opacity: 0.4;
+}
+
+.about {
+	width: 600px;
+	margin: auto;
+	margin-top: 50px;
+
+}
+
+#profilepic {
+	float: left;
+}
+
+#bio {
+	float: right;
+	width: 450px;
+}
+
+#Footer {
+	margin: 170px auto 0px;
+	text-align: center;
 	font-size: 0.5em;
 	text-transform: uppercase;
+	clear: both;
+	width: 700px;
 }
 
 a:link {
@@ -45,7 +129,7 @@ a:link {
 }
 
 a:hover {
-    color: gray;
+    opacity: 0.4;
 }
 
 a:visited {
