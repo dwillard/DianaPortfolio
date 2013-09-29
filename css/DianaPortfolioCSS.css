@@ -3,12 +3,20 @@ body {
 	font-size: 0.75em;
 }
 
+#Header {
+	text-align: right;
+}
+
 .HeaderMenu {
 	display: inline-block;
-	float: right;
-	margin: 10px 25px 10px 25px;
+	padding: 10px 20px;
 	letter-spacing: 2px;
 	text-transform: uppercase;	
+}
+
+#logoHeader {
+	margin: auto;
+	width: 300px;
 }
 
 #DWlogo {
@@ -20,11 +28,11 @@ body {
 
 .hiddendisplay {
 	margin: auto;
-	width: 650px;
+	width: 700px;
 }
 
 #paintingdisplay {
-	height: 675px;
+	height: 630px;
 	width: 450px;
 	margin: 10px ;
 	float: left;
@@ -46,7 +54,7 @@ body {
 .outer {
 	margin: auto;
 	height: 700px;
-	width: 700px;
+	width: 1000px;
 	text-align: center;
 	clear: both;
 }
@@ -76,29 +84,37 @@ body {
 	display: inline-block;
 }
 
-.about {
-	width: 600px;
-	margin: auto;
-	margin-top: 50px;
+#homeLine {
+	margin-top: 100px;
+}
 
+#portfolioLine {
+	margin-top: 500px;
+}
+
+.about {
+	width: 800px;
+	margin: auto;
+	margin-top: 10px;
 }
 
 #profilepic {
 	float: left;
+	padding-top: 10px;
 }
 
 #bio {
 	float: right;
-	width: 450px;
+	width: 680px;
 }
 
-#Footer {
-	margin: 170px auto 0px;
+.Footer {
 	text-align: center;
 	font-size: 0.5em;
 	text-transform: uppercase;
 	clear: both;
-	width: 700px;
+	margin: auto;
+	padding-top: 10px;
 }
 
 a:link {
