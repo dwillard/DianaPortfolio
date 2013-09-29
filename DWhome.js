@@ -21,7 +21,7 @@ $('#outerSlider').mousemove(
 var doSlide = false;
 var moveSlider = function () {
     var outerSlider = $('#outerSlider');
-    outerSlider.scrollLeft(outerSlider.scrollLeft() + (direction * 10));
+    outerSlider.scrollLeft(outerSlider.scrollLeft() + (direction * 5));
     if (doSlide) {
         requestAnimationFrame(moveSlider);
     }
@@ -38,4 +38,10 @@ $('#outerSlider').hover(
         doSlide = false;
     }
 );
+
+  $(".scroll").click(function(event){       
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+    });
+
 });
